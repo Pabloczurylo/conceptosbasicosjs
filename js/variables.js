@@ -9,3 +9,15 @@ document.write('<p class="text-center text-primary">Primer mensaje en el documen
 // ventanas emergentes 
 
 //alert('Ejemplo de alerta');
+
+// declarar e inicializar una variable
+// declarar o crear una variable (var - let - const)
+let regaloNavidad = 'Camiseta de Boca'
+document.write('Regalo de navidad 2023: ' + regaloNavidad + '<br>')
+
+//modificar el contenido de una variable creada con let
+regaloNavidad = 'Camiseta de Messi'
+document.write('Regalo de navidad 2023: ' + regaloNavidad)
+
+const urlUniverse = 'https://universe.rollingcodeschool.com/';
+document.write('<br>Página de universe: ' + urlUniverse)
