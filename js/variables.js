@@ -21,3 +21,24 @@ document.write('Regalo de navidad 2023: ' + regaloNavidad)
 
 const urlUniverse = 'https://universe.rollingcodeschool.com/';
 document.write('<br>Página de universe: ' + urlUniverse)
+
+let precioSinImpuesto = 1100;
+let impuestos = 600;
+
+document.write('<br>El precio de la camiseta de Boca es: $'+ (precioSinImpuesto + impuestos) + 'USD')
+// agregamos el ejercicio de Elias
+
+//parsInt()  *es para usar los datos tipo entero*
+//parsFloat() *es para decimales*
+let gradosCelsius = parseInt(prompt('Ingrese un valor en grados centigrados'));
+console.log(gradosCelsius)
+let gradosFahrenheit = (gradosCelsius * 9) / 5 + 32;
+
+document.write(
+  "<br>" +
+    gradosCelsius +
+    "°C grados celsius son equivalentes a " +
+    gradosFahrenheit +
+    "°F grados farenheit"
+);
+document.write("<br>Otro ejemplo: " + (gradosCelsius + 50));
