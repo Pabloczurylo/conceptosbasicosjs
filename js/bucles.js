@@ -19,9 +19,17 @@
         agregar un codigo para que la condición se deje de repetir
     }while(condicion logica ) "en el do-while se ejecuta y luego se comprueba la condición"
 */
-    let renglon = 1;
-    do{
-        document.write(`<p>Renglon número ${renglon}</p>`);
-        renglon++;  //la variable con el ++ aumenta el valor de la misma de 1 en 1 
-    }while(renglon <= 50)
+    //let renglon = 1;
+    //do{
+      //  document.write(`<p>Renglon número ${renglon}</p>`);
+       // renglon++;  //la variable con el ++ aumenta el valor de la misma de 1 en 1 
+   // }while(renglon <= 50)
 //for
+/* 
+    for(inicializamos una variable; condicion logica; incrementar o decrementar una variable){
+        todas las lineas de codigo que quiero repetir varias veces
+    }
+*/
+for(let renglon =1; renglon <=60; renglon++){
+    document.write(`<p>Renglon número ${renglon}</p>`);
+}
