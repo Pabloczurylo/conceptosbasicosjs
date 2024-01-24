@@ -7,6 +7,7 @@ do {
   );
   // Estructura Switch
   switch (operacion) {
+    case "saldo":
     case "1":
       document.write(`<p>Saldo disponinle: $${saldo}</p>`);
       console.log(saldo);
