@@ -5,6 +5,10 @@ do {
   const operacion = prompt(
     "Seleccione una opción: 1- Consultar el saldo, 2-Depositar Dinero, 3-Extraer dinero"
   );
+ // console.log(operacion.tolLowerCase()); // transformar un string a minusculas
+ // console.log(operacion.toUpperCase());  // transformar un string a mayusculas 
+ //   String.trim() quita espacios vacios delante y al final del string, no los espacios del medio
+ 
   // Estructura Switch
   switch (operacion) {
     case "saldo":
